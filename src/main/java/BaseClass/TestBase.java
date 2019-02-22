@@ -52,11 +52,6 @@ public class TestBase {
 
 	}
 
-	public void failed(String testmethodname) throws IOException {
-		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(file, new File("C:/Users/mohsharm4/eclipseWorkspace/gmailTest/src/main/java/Screenshot/"
-				+ testmethodname + "_" + ".png"));
-
-	}
+	
 
 }
