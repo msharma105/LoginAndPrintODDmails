@@ -1,4 +1,4 @@
-package ExtentReports;
+/*package ExtentReports;
 
 import java.util.Map;
 
@@ -76,4 +76,4 @@ public class ExtentReporterNG implements IReporter {
 			return calendar.getTime();
 		}
 
-}
+}*/
