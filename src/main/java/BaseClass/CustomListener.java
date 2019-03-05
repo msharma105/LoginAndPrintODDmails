@@ -22,7 +22,7 @@ public class CustomListener extends TestBase implements ITestListener {
 	}
 
 	public void onTestFailure(ITestResult result) {
-		System.out.println("failed");
+		//System.out.println("failed");
 		try {
 			failed(result.getMethod().getMethodName());
 		} catch (IOException e) {
